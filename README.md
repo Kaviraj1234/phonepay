@@ -66,7 +66,7 @@ Looping through each and every folder and opening the json files appending only 
    
    **Creating the connection between python and mysql**
    
-mydb = pymysql.connect(host = '127.0.0.1',user='root',passwd='Hari@161297',database = "phonepe")
+mydb = pymysql.connect(host = "localhost",user="root",passwd="",database = "phonepe")
 mycursor = mydb.cursor()
 
 **Creating tables**
